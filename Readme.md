@@ -2,6 +2,12 @@ Welcome to my SCAD library!
 This is where I save the 3d models i've made and they're free for your use,
 Download and have fun :) 
 
+**PROJECTS IN THIS DIRECTORY**
+
+3d Printed Handbrake project: A base scad model for housing of a 3d printed handbreak for pc racing gaming
+Plastic Blind Tab Rplacement: A replacement part for my blinds when they break
+
+**Licence** 
 
 All these materials are avaiable under an MIT licence; as below.
 Copyright © 2023 <Andrew Turner>
