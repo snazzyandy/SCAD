@@ -1,0 +1,30 @@
+The handbreak physical assets are based off this video:
+For assembly i recommend watching this video:
+	https://www.youtube.com/watch?v=QZ9_e0rybVw&ab_channel=SLIDEIT
+
+You can purchase his other cad components here:
+	https://cults3d.com/en/3d-model/various/handbrake-usb
+
+I really liked this guys guide however I had a few issues with it;
+1) He didnt release the CAD file, and therefore you cant edit it and make minor changes :( 
+2) I didnt like his cabling solution - so i ran mine out the side 
+3) The assets he linked werent readily avaiable in my area - 
+4) I wanted to buy all the gear from bunnings warehouse and JayCar (the greatest establishments in all of Sydney, Australia)
+This model is just the base, I use his STL files for the handbreak cover, lever, lever spacers & pot holder - All avaiable on the cults 3d above (Given its now paid i wont attach the STL files (as at July 23))
+
+Still buy the same Bolts and Nuts:
+M5 bolt - 2x 70mm
+M5 bolt - 30mm
+M5 Nut - 8x
+M10 bolt - 100mm
+M10 bolt - 75mm
+M10 Nut - 3x
+
+A Arduino Pro Micro ATmega32U4 5V 16MHz Replace ATmega328 Pro Mini Leonardo USB
+	https://www.ebay.com.au/itm/304256743457?var=603345464297
+A Slide potentiometer: https://www.dicksmith.com.au/da/buy/dabtronics-slide-potentiometer-module-for-arduino-projects-ta0185/?utm_source=bing&utm_medium=cpc&utm_campaign=Bing+PLAS+DS&utm_term=4578022820718274&utm_content=Ad+group+%231
+Soldering Iron- Model Doesnt matter
+A Micro Usb to Usb A: https://www.amazon.com.au/AmazonBasics-Male-Micro-Cable-Black/dp/B07232M876
+
+100mm sompression Spring; Varying strength based off use case.
+If you want to do more drift maybe slightly less, if you want to rally i recommend a bit stronger.
