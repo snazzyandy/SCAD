@@ -1,6 +1,9 @@
 Welcome to my SCAD library!
 This is where I save the 3d models i've made and they're free for your use,
+Download and have fun :) 
 
+
+All these materials are avaiable under an MIT licence; as below.
 Copyright © 2023 <Andrew Turner>
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
