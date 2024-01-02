@@ -2,7 +2,7 @@
 // Base polygon
 base_width = 7;
 base_length = 90;
-base_depth = 0.9;
+base_depth = 2;
 
 // Inset distance
 inset_width = 13;
@@ -10,9 +10,14 @@ inset_length = 12;
 inset_depth = base_depth;
 
 //tidycuts
-tidycut_width = 0.2;
-tidycut_height = 0.2;
-tidycut_depth = base_depth;
+tidycut_width = inset_width /3.25;
+tidycut_height = inset_length -2;
+tidycut_depth = base_depth*4;
+
+//tidycut variable
+cut_adjuster = 1; // Move the cut left and right
+cut_inset_1 = 5; // Move the top hole down
+cut_inset_2 = 11; // Move the Bottom hole up
 
 //define modules
 //base cube module
@@ -46,15 +51,32 @@ module subtractive_square(){
 
 //render objects
 //render the base cube
-base_square();
+//base_square();
 
+difference(){
 // Render the inset square
-translate([base_width- inset_width/2, base_length / 2 - inset_length/2, 10]) inset_square();
+translate([base_width- inset_width/2, base_length / 2 - inset_length/2, 0]) inset_square();
 
 //subtract the inset square and base cube with 2 subtracctive squares
     //cut 1
-      translate([0,10,10])
+      translate([base_width- inset_width/2 + (inset_length - cut_inset_1), 
+    (base_length / 2 - inset_length/2)+cut_adjuster, 
+    -1])
           subtractive_square();
     //cut 2
-       translate([0,10,20])
-           subtractive_square();
+       translate([base_width- inset_width/2 + (inset_length-cut_inset_2), 
+    (base_length / 2 - inset_length/2)+cut_adjuster, 
+    -1])
+    subtractive_square();
+};
+
+
+difference(){
+    base_square();
+    
+     //cut 2
+       translate([base_width- inset_width/2 + (inset_length-cut_inset_2), 
+    (base_length / 2 - inset_length/2)+cut_adjuster, 
+    -1])
+    subtractive_square();
+    }
