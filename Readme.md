@@ -5,7 +5,8 @@ Download and have fun :)
 **PROJECTS IN THIS DIRECTORY**
 
 3d Printed Handbrake project: A base scad model for housing of a 3d printed handbreak for pc racing gaming
-Plastic Blind Tab Rplacement: A replacement part for my blinds when they break
+
+Plastic Blind Tab Replacement: A replacement part for my blinds when they break
 
 **Licence** 
 
